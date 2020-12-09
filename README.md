@@ -13,6 +13,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#returns">Returns</a></li>
+    <li><a href="#plans">Plans</a></li>
   </ol>
 </details>
 
@@ -88,3 +89,6 @@ nameGen returns an object of { race, gender, name }
 
 nameList returns an array of { race, gender, name } objects
 ```
+
+## Plans
+I plan to add more seed names over time, and I might develop some more generators.
