@@ -5,7 +5,7 @@ const generateName = require("./GenerateName");
 
 let nameSet = {};
 
-module.exports = (race = "", gender = "") => {
+module.exports = ({ race = "", gender = "" }) => {
   race = camelCase(race);
   gender = gender.toLowerCase();
 
